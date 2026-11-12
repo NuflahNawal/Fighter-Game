@@ -56,7 +56,7 @@ function animateChar(event) {
     if (event.keyCode == 76 && right > 10) {
         right = right - 15;
         char2.style.right = right + "px";
-        char2.style.transform = "scaleX(1)"; 
+        char2.style.transform = "scaleX(-1)"; 
         char2.src = "https://www.fightersgeneration.com/nf7/char/hibki-blazblue-walkforward.gif";
         setTimeout(() => {
             char2.src = "https://www.fightersgeneration.com/nf8/char2/hibiki-blazblue-write.gif";
